@@ -1,0 +1,21 @@
+{
+    "name": "primed",
+    "displayName": "Primed",
+    "description": "Primed color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Primed",
+                "uiTheme": "vs",
+                "path": "./themes/Primed-color-theme.json"
+            }
+        ]
+    }
+}
