@@ -17,5 +17,8 @@
                 "path": "./themes/Primed-color-theme.json"
             }
         ]
-    }
+    },
+	"repository": {
+		"url": "https://github.com/cbrl/Primed"
+	}
 }
