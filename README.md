@@ -1,2 +1,2 @@
 # Primed
-Primed theme
+Primed color theme
