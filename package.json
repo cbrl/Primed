@@ -2,6 +2,10 @@
     "name": "primed",
     "displayName": "Primed",
     "description": "Primed color theme",
+	"publisher": "cbrl",
+	"repository": {
+		"url": "https://github.com/cbrl/Primed"
+	},
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.67.0"
@@ -17,8 +21,5 @@
                 "path": "./themes/Primed-color-theme.json"
             }
         ]
-    },
-	"repository": {
-		"url": "https://github.com/cbrl/Primed"
-	}
+    }
 }
