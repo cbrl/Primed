@@ -6,7 +6,7 @@
 	"colors": {
 		"activityBar.background": "#f5f5f5",
 		"activityBar.border": "#dddddd",
-		"activityBar.foreground": "#333333",
+		"activityBar.foreground": "#33434B",
 		"activityBarBadge.background": "#3d82c6",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#3d82c6",
@@ -19,12 +19,12 @@
 		"diffEditor.removedTextBackground": "#ff000033",
 		"dropdown.background": "#ffffff",
 		"dropdown.border": "#dddddd",
-		"dropdown.foreground": "#333333",
+		"dropdown.foreground": "#33434B",
 		"editor.background": "#ffffff",
 		"editor.findMatchBackground": "#fff78a7e",
 		"editor.findMatchHighlightBackground": "#fff78a7e",
 		"editor.findRangeHighlightBackground": "#fff78a7e",
-		"editor.foreground": "#333333",
+		"editor.foreground": "#33434B",
 		"editor.hoverHighlightBackground": "#fff78a7e",
 		"editor.lineHighlightBackground": "#f0f5fa",
 		"editor.lineHighlightBorder": "#f0f5fa",
@@ -34,8 +34,8 @@
 		"editorBracketMatch.background": "#f0f5fa",
 		"editorBracketMatch.border": "#e8e8e8",
 		"editorCodeLens.foreground": "#0366d6",
-		"editorCursor.background": "#333333",
-		"editorCursor.foreground": "#333333",
+		"editorCursor.background": "#33434B",
+		"editorCursor.foreground": "#33434B",
 		"editorError.border": "#ffffff",
 		"editorError.foreground": "#d21d00",
 		"editorGroup.border": "#dddddd",
@@ -60,7 +60,7 @@
 		"editorRuler.foreground": "#e8e8e8",
 		"editorSuggestWidget.background": "#ffffff",
 		"editorSuggestWidget.border": "#dddddd",
-		"editorSuggestWidget.foreground": "#333333",
+		"editorSuggestWidget.foreground": "#33434B",
 		"editorSuggestWidget.highlightForeground": "#3d82c6",
 		"editorSuggestWidget.selectedBackground": "#acd5ff",
 		"editorWarning.border": "#ffffff",
@@ -72,7 +72,7 @@
 		"extensionButton.prominentForeground": "#ffffff",
 		"extensionButton.prominentHoverBackground": "#3d82c6",
 		"focusBorder": "#dddddd",
-		"foreground": "#333333",
+		"foreground": "#33434B",
 		"gitDecoration.conflictingResourceForeground": "#f66a0a",
 		"gitDecoration.deletedResourceForeground": "#d21d00",
 		"gitDecoration.ignoredResourceForeground": "#2f363d",
@@ -80,19 +80,19 @@
 		"gitDecoration.untrackedResourceForeground": "#444d56",
 		"input.background": "#ffffff",
 		"input.border": "#dddddd",
-		"input.foreground": "#333333",
+		"input.foreground": "#33434B",
 		"input.placeholderForeground": "#dddddd",
 		"inputOption.activeBorder": "#dddddd",
 		"inputValidation.errorBackground": "#ffffff",
 		"inputValidation.errorBorder": "#ff3333",
 		"inputValidation.infoBackground": "#ffffff",
-		"inputValidation.infoBorder": "#0086b3",
+		"inputValidation.infoBorder": "#0090B4",
 		"inputValidation.warningBackground": "#ffffff",
 		"inputValidation.warningBorder": "#f0c36f",
 		"list.activeSelectionBackground": "#3d82c6",
 		"list.activeSelectionForeground": "#ffffff",
 		"list.focusBackground": "#dbebfd",
-		"list.focusForeground": "#333333",
+		"list.focusForeground": "#33434B",
 		"list.focusHighlightForeground": "#ffffff",
 		"list.highlightForeground": "#3d82c6",
 		"list.hoverBackground": "#ffffff",
@@ -104,7 +104,7 @@
 		"panel.background": "#f7f7f7",
 		"panel.border": "#dddddd",
 		"panelTitle.activeBorder": "#dddddd",
-		"panelTitle.activeForeground": "#333333",
+		"panelTitle.activeForeground": "#33434B",
 		"panelTitle.inactiveForeground": "#666666",
 		"progressBar.background": "#3d82c6",
 		"scrollbarSlider.activeBackground": "#cfcfcfee",
@@ -113,10 +113,10 @@
 		"selection.background": "#3d81c683",
 		"sideBar.background": "#f5f5f5",
 		"sideBar.border": "#dddddd",
-		"sideBar.foreground": "#333333",
+		"sideBar.foreground": "#33434B",
 		"sideBarSectionHeader.background": "#ffffff",
-		"sideBarSectionHeader.foreground": "#333333",
-		"sideBarTitle.foreground": "#333333",
+		"sideBarSectionHeader.foreground": "#33434B",
+		"sideBarTitle.foreground": "#33434B",
 		"statusBar.background": "#f3f3f3",
 		"statusBar.border": "#dddddd",
 		"statusBar.debuggingBackground": "#f7f7f7",
@@ -184,9 +184,13 @@
 				"variable.other.constant",
 				"variable.other.block",
 				"variable.other.readwrite.instance",
+
+				"meta.property-value",
+				"meta.property-value constant.other",
+				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#333333"
+				"foreground": "#33434B"
 			}
 		},
 		{
@@ -201,15 +205,18 @@
 		{
 			"scope": [
 				"keyword",
+				"keyword.control",
 				"keyword.operator.wordlike",
 				"keyword.operator.functionlike",
 				"storage",
 				"meta.selector",
 				"variable.language.special.self.python",
-				"variable.parameter.function.language.special.self.python"
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.this.cpp",
+				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#A71D5D"
+				"foreground": "#316BCD"
 			}
 		},		
 		{
@@ -225,6 +232,7 @@
 		{
 			"scope": [
 				"entity.name.function.preprocessor",
+				"entity.name.variable.preprocessor",
 				"string.other.link",
 				"markup.lists"
 			],
@@ -242,12 +250,6 @@
 			"scope": "token.error-token",
 			"settings": {
 				"foreground": "#CD3131"
-			}
-		},
-		{
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#63A3A4"
 			}
 		},
 		{
@@ -287,58 +289,61 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#0086B3"
+				"foreground": "#0090B4"
 			}
 		},
 		{
 			"scope": [
+				"keyword.other.unit",
 				"constant.numeric",
-				"constant.other.symbol",
 				"constant.character.escape.scss",
 				"constant.character.escape.css",
+				"constant.other.symbol",
 				"constant.language.symbol"
 			],
 			"settings": {
-				"foreground": "#4180C6"
+				"foreground": "#E03939"
 			}
 		},
 		{
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#4180C6"
 			}
 		},
 		{
 			"scope": [
 				"token.info-token",
-				"keyword.control"
+				"keyword.control.directive",
+				"keyword.preprocessor"
 			],
 			"settings": {
-				"foreground": "#316BCD"
+				"foreground": "#C22559"
 			}
 		},
 		{
 			"scope": [
-				"constant.language",
-				"keyword.other.unit",
 				"punctuation.definition.variable",
 				"punctuation.definition.parameters",
-				"punctuation.definition.array"
+				"punctuation.definition.array",
+				"markup.raw.inline"
 			],
 			"settings": {
 				"foreground": "#173591"
 			}
 		},
 		{
-			"scope": "markup.raw.inline",
+			"scope": [
+				"constant",
+				"constant.language",
+				"constant.character.escape"
+			],
 			"settings": {
-				"foreground": "#183691"
+				"foreground": "#6D57D8",
 			}
 		},
 		{
 			"scope": [
-				"constant",
-				"constant.character.escape",
 				"entity.name.function",
 				"entity.name.section",
 				"entity.other.attribute-name",
@@ -357,7 +362,7 @@
 				"support.function.any-method"				
 			],
 			"settings": {
-				"foreground": "#795DA3"
+				"foreground": "#8954A0"
 			}
 		},
 		{
@@ -366,7 +371,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#795DA3",
+				"foreground": "#8954A0",
 				"fontStyle": "italic"
 			}
 		},
@@ -378,19 +383,16 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#8954A0"
 			}
 		},
 		{
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-				"meta.property-value",
-				"meta.property-value constant.other",
-				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#208C47"
 			}
 		},
 		{
@@ -437,36 +439,36 @@
 		}
 	],
 	"semanticTokenColors": {		
-		"namespace": "#333333", //identifiers that declare or reference a namespace, module, or package
-		"class": "#0086B3", //identifiers that declare or reference a class type
-		"enum": "#0086B3", //identifiers that declare or reference an enumeration type
-		"interface": "#0086B3", //identifiers that declare or reference an interface type
-		"struct": "#0086B3", //identifiers that declare or reference a struct type
-		"typeParameter": "#0086B3", //identifiers that declare or reference a type parameter
-		"type": "#0086B3", //identifiers that declare or reference a type that is not covered above
-		"module": "#63A3A4",
-		"parameter": "#333333", //identifiers that declare or reference a function or method parameters
-		"variable": "#333333", //identifiers that declare or reference a local or global variable
-		"property": "#333333", //identifiers that declare or reference a member property, member field, or member variable
-		"enumMember": "#234343", //identifiers that declare or reference an enumeration property, constant, or member
+		"namespace": "#33434B", //identifiers that declare or reference a namespace, module, or package
+		"class": "#0090B4", //identifiers that declare or reference a class type
+		"enum": "#0090B4", //identifiers that declare or reference an enumeration type
+		"interface": "#0090B4", //identifiers that declare or reference an interface type
+		"struct": "#0090B4", //identifiers that declare or reference a struct type
+		"typeParameter": "#0090B4", //identifiers that declare or reference a type parameter
+		"type": "#0090B4", //identifiers that declare or reference a type that is not covered above
+		"module": "#0090B4",
+		"parameter": "#33434B", //identifiers that declare or reference a function or method parameters
+		"variable": "#33434B", //identifiers that declare or reference a local or global variable
+		"property": "#33434B", //identifiers that declare or reference a member property, member field, or member variable
+		"enumMember": "#224B4B", //identifiers that declare or reference an enumeration property, constant, or member
 		//"decorator": "#FF0000", //identifiers that declare or reference decorators and annotations
 		//"event": "#FF0000", //identifiers that declare an event property
-		"function": "#795DA3", //identifiers that declare a function
-		"method": "#795DA3", //identifiers that declare a member function or method
+		"function": "#8954A0", //identifiers that declare a function
+		"method": "#8954A0", //identifiers that declare a member function or method
 		"macro": "#ED6A43", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
-		"string": "#448C27", //tokens that represent a string literal
-		"keyword": "#A71D5D", //tokens that represent a language keyword
+		"string": "#208C47", //tokens that represent a string literal
+		"keyword": "#316BCD", //tokens that represent a language keyword
 		"controlKeyword": "#316BCD",
-		"preprocessorKeyword": "#A71D5D",
-		"selfParameter": "#A71D5D",
-		"clsParameter": "#A71D5D",
-		"number": "#4180C6", //tokens that represent a number literal
-		"builtinConstant": "#173591",
+		"preprocessorKeyword": "#C22559",
+		"selfParameter": "#316BCD",
+		"clsParameter": "#316BCD",
+		"number": "#E03939", //tokens that represent a number literal
+		"builtinConstant": "#6E59D9",
 		//"regexp": "#FF0000", //tokens that represent a regular expression literal
-		//"operator": "#333333", //tokens that represent an operator
-		"operatorOverload": "#63A3A4",
-		"memberOperatorOverload": "#63A3A4"
+		//"operator": "#33434B", //tokens that represent an operator
+		"operatorOverload": "#46A3A4",
+		"memberOperatorOverload": "#46A3A4"
 	}
 }
