@@ -362,7 +362,7 @@
 				"support.function.any-method"				
 			],
 			"settings": {
-				"foreground": "#8954A0"
+				"foreground": "#9430A8"
 			}
 		},
 		{
@@ -371,7 +371,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#8954A0",
+				"foreground": "#9430A8",
 				"fontStyle": "italic"
 			}
 		},
@@ -383,7 +383,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#8954A0"
+				"foreground": "#9430A8"
 			}
 		},
 		{
@@ -453,8 +453,8 @@
 		"enumMember": "#224B4B", //identifiers that declare or reference an enumeration property, constant, or member
 		//"decorator": "#FF0000", //identifiers that declare or reference decorators and annotations
 		//"event": "#FF0000", //identifiers that declare an event property
-		"function": "#8954A0", //identifiers that declare a function
-		"method": "#8954A0", //identifiers that declare a member function or method
+		"function": "#9430A8", //identifiers that declare a function
+		"method": "#9430A8", //identifiers that declare a member function or method
 		"macro": "#ED6A43", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
