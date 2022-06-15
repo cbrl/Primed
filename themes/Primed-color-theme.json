@@ -212,6 +212,7 @@
 				"keyword.operator.functionlike",
 				"storage",
 				"meta.selector",
+				"keyword.operator.logical.python",
 				"variable.language.special.self.python",
 				"variable.parameter.function.language.special.self.python",
 				"variable.language.this.cpp",
