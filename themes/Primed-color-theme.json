@@ -86,7 +86,7 @@
 		"inputValidation.errorBackground": "#ffffff",
 		"inputValidation.errorBorder": "#ff3333",
 		"inputValidation.infoBackground": "#ffffff",
-		"inputValidation.infoBorder": "#2091AF",
+		"inputValidation.infoBorder": "#2296B6",
 		"inputValidation.warningBackground": "#ffffff",
 		"inputValidation.warningBorder": "#f0c36f",
 		"list.activeSelectionBackground": "#3d82c6",
@@ -206,41 +206,18 @@
 		},
 		{
 			"scope": [
-				"keyword",
-				"keyword.control",
-				"keyword.operator.wordlike",
-				"keyword.operator.functionlike",
-				"storage",
-				"meta.selector",
-				"keyword.operator.logical.python",
-				"variable.language.special.self.python",
-				"variable.parameter.function.language.special.self.python",
-				"variable.language.this.cpp",
-				"entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#316BCD"
-			}
-		},		
-		{
-			"scope": [
-				"markup.italic",
-				"punctuation.definition.italic"
-			],
-			"settings": {
-				"foreground": "#A71D5D",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
+				"keyword.other.unit",
+				"constant.numeric",
+				"constant.character.escape.scss",
+				"constant.character.escape.css",
+				"constant.other.symbol",
+				"constant.language.symbol",
 				"entity.name.function.preprocessor",
 				"entity.name.variable.preprocessor",
-				"string.other.link",
-				"markup.lists"
+				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#ED6A43"
+				"foreground": "#E03939"
 			}
 		},
 		{
@@ -253,6 +230,16 @@
 			"scope": "token.error-token",
 			"settings": {
 				"foreground": "#CD3131"
+			}
+		},
+		{
+			"scope": [
+				"token.info-token",
+				"keyword.control.directive",
+				"keyword.preprocessor"
+			],
+			"settings": {
+				"foreground": "#C22559"
 			}
 		},
 		{
@@ -292,36 +279,13 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#2091AF"
-			}
-		},
-		{
-			"scope": [
-				"keyword.other.unit",
-				"constant.numeric",
-				"constant.character.escape.scss",
-				"constant.character.escape.css",
-				"constant.other.symbol",
-				"constant.language.symbol"
-			],
-			"settings": {
-				"foreground": "#E03939"
+				"foreground": "#2296B6"
 			}
 		},
 		{
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#4180C6"
-			}
-		},
-		{
-			"scope": [
-				"token.info-token",
-				"keyword.control.directive",
-				"keyword.preprocessor"
-			],
-			"settings": {
-				"foreground": "#C22559"
+				"foreground": "#316BCD"
 			}
 		},
 		{
@@ -347,40 +311,77 @@
 		},
 		{
 			"scope": [
-				"entity.name.function",
+				"keyword",
+				"keyword.control",
+				"keyword.operator.wordlike",
+				"keyword.operator.functionlike",
+				"storage",
+				"meta.selector",
+
+				// Language-specific keywords
+				"keyword.operator.logical.python",
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.this.cpp",
+
+				// JSON
+				"support.type.property-name.json",
+
+				// Markdown
+				"entity.name.tag",
+				"markup.heading",
 				"entity.name.section",
+			],
+			"settings": {
+				"foreground": "#316BCD"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
 				"entity.other.attribute-name",
 				"entity.other.attribute-name.id",
 				"meta.function-call.generic",
 				"keyword.other.special-method",
-				"punctuation.definition.bold",
 				"punctuation.definition.entity",
-				"markup.heading punctuation.definition.heading",
-				"markup.bold",
-				"markup.quote",
-				"meta.link",
+				//"meta.link",
 				"meta.require",
 				"string.regexp",
 				"support.function",				
 				"support.function.any-method",
+				"meta.tag entity.other.attribute-name",
+				"entity.other.attribute-name.html",
 				
 				// CSS
 				"meta.selector",
 				"meta.selector entity",
 				"meta.selector entity punctuation",
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+
+				// Markdown
+				"markup.italic",
+				"markup.bold",
+				"markup.strikethrough",
+				"punctuation.definition.italic",
+				"punctuation.definition.bold",
+				"punctuation.definition.strikethrough"
 			],
 			"settings": {
-				"foreground": "#9030A4"
+				"foreground": "#9C33B1"
 			}
 		},
 		{
 			"scope": [
+				"markup.italic",
+				"markup.bold",
+				"markup.strikethrough",
+				"punctuation.definition.italic",
+				"punctuation.definition.bold",
+				"punctuation.definition.strikethrough",
 				"meta.tag entity.other.attribute-name",
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#9030A4",
 				"fontStyle": "italic"
 			}
 		},
@@ -388,6 +389,7 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
+				"markup.quote",
 			],
 			"settings": {
 				"foreground": "#208C47"
@@ -438,25 +440,25 @@
 	],
 	"semanticTokenColors": {
 		"namespace": "#33434B", //identifiers that declare or reference a namespace, module, or package
-		"class": "#2091AF", //identifiers that declare or reference a class type
-		"enum": "#2091AF", //identifiers that declare or reference an enumeration type
-		"interface": "#2091AF", //identifiers that declare or reference an interface type
-		"struct": "#2091AF", //identifiers that declare or reference a struct type
-		"typeParameter": "#2091AF", //identifiers that declare or reference a type parameter
-		"type": "#2091AF", //identifiers that declare or reference a type that is not covered above
-		"module": "#2091AF",
+		"class": "#2296B6", //identifiers that declare or reference a class type
+		"enum": "#2296B6", //identifiers that declare or reference an enumeration type
+		"interface": "#2296B6", //identifiers that declare or reference an interface type
+		"struct": "#2296B6", //identifiers that declare or reference a struct type
+		"typeParameter": "#2296B6", //identifiers that declare or reference a type parameter
+		"type": "#2296B6", //identifiers that declare or reference a type that is not covered above
+		"module": "#2296B6",
 		"parameter": "#33434B", //identifiers that declare or reference a function or method parameters
 		"variable": "#33434B", //identifiers that declare or reference a local or global variable
 		"property": "#33434B", //identifiers that declare or reference a member property, member field, or member variable
 		"enumMember": "#2F5858", //identifiers that declare or reference an enumeration property, constant, or member
 		//"decorator": "#FF0000", //identifiers that declare or reference decorators and annotations
 		//"event": "#FF0000", //identifiers that declare an event property
-		"function": "#9030A4", //identifiers that declare a function
-		"method": "#9030A4", //identifiers that declare a member function or method
+		"function": "#9C33B1", //identifiers that declare a function
+		"method": "#9C33B1", //identifiers that declare a member function or method
 		"macro": "#ED6A43", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
-		"string": "#208C47", //tokens that represent a string literal
+		"string": "#208c48", //tokens that represent a string literal
 		"keyword": "#316BCD", //tokens that represent a language keyword
 		"controlKeyword": "#316BCD",
 		"preprocessorKeyword": "#C22559",
