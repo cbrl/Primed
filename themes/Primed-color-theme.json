@@ -160,9 +160,30 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "keyword.other.important",
+			"scope": [
+				"keyword.other.important",
+				"markup.bold",
+				"markup.heading",
+				"entity.name.section"
+			],
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"markup.italic",
+				"meta.tag entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
@@ -198,7 +219,8 @@
 		{
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"markup.inline.raw.string.markdown" //markdown inline code
 			],
 			"settings": {
 				"foreground": "#969896"
@@ -214,7 +236,7 @@
 				"constant.language.symbol",
 				"entity.name.function.preprocessor",
 				"entity.name.variable.preprocessor",
-				"string.other.link"
+				"string.other.link",
 			],
 			"settings": {
 				"foreground": "#E03939"
@@ -327,10 +349,12 @@
 				// JSON
 				"support.type.property-name.json",
 
-				// Markdown
+				// HTML
 				"entity.name.tag",
+
+				// Markdown
 				"markup.heading",
-				"entity.name.section",
+				"entity.name.section"
 			],
 			"settings": {
 				"foreground": "#316BCD"
@@ -368,21 +392,6 @@
 			],
 			"settings": {
 				"foreground": "#9C33B1"
-			}
-		},
-		{
-			"scope": [
-				"markup.italic",
-				"markup.bold",
-				"markup.strikethrough",
-				"punctuation.definition.italic",
-				"punctuation.definition.bold",
-				"punctuation.definition.strikethrough",
-				"meta.tag entity.other.attribute-name",
-				"entity.other.attribute-name.html"
-			],
-			"settings": {
-				"fontStyle": "italic"
 			}
 		},
 		{
