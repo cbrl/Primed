@@ -197,6 +197,10 @@
 				"keyword.operator.arithmetic",
 				"keyword.operator.bitwise",
 				"keyword.operator.assignment",
+				"keyword.other.unit",
+				"constant.numeric",
+				"constant.other.symbol",
+				"constant.language.symbol",
 				"punctuation.section.scope",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
@@ -228,12 +232,6 @@
 		},
 		{
 			"scope": [
-				"keyword.other.unit",
-				"constant.numeric",
-				"constant.character.escape.scss",
-				"constant.character.escape.css",
-				"constant.other.symbol",
-				"constant.language.symbol",
 				"entity.name.function.preprocessor",
 				"entity.name.variable.preprocessor",
 				"string.other.link",
@@ -325,10 +323,10 @@
 			"scope": [
 				"constant",
 				"constant.language",
-				"constant.character.escape"
+				"constant.character.escape",
 			],
 			"settings": {
-				"foreground": "#6D57D8",
+				"foreground": "#6D54EB",
 			}
 		},
 		{
@@ -473,8 +471,8 @@
 		"preprocessorKeyword": "#C22559",
 		"selfParameter": "#316BCD",
 		"clsParameter": "#316BCD",
-		"number": "#E03939", //tokens that represent a number literal
-		"builtinConstant": "#6E59D9",
+		"number": "#33434B", //tokens that represent a number literal
+		"builtinConstant": "#6D54EB",
 		//"regexp": "#FF0000", //tokens that represent a regular expression literal
 		//"operator": "#33434B", //tokens that represent an operator
 		"operatorOverload": "#46A3A4",
