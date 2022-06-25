@@ -197,7 +197,6 @@
 				"keyword.operator.arithmetic",
 				"keyword.operator.bitwise",
 				"keyword.operator.assignment",
-				"keyword.other.unit",
 				"punctuation.section.scope",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
@@ -304,6 +303,9 @@
 				"constant.numeric",
 				"constant.other.symbol",
 				"constant.language.symbol",
+				"keyword.other.unit",
+				"keyword.other.operator.overload.cpp",
+				"keyword.other.operator.custom-literal.cpp"
 			],
 			"settings": {
 				"foreground": "#078B8B"
