@@ -228,31 +228,21 @@
 		},
 		{
 			"scope": [
-				"entity.name.function.preprocessor",
-				"entity.name.variable.preprocessor",
-				"string.other.link",
+				"token.error-token",
+				"markup.deleted",
+				"string.other.link"
 			],
 			"settings": {
 				"foreground": "#E03939"
 			}
 		},
 		{
-			"scope": "markup.deleted",
-			"settings": {
-				"foreground": "#EB5368"
-			}
-		},
-		{
-			"scope": "token.error-token",
-			"settings": {
-				"foreground": "#CD3131"
-			}
-		},
-		{
 			"scope": [
 				"token.info-token",
 				"keyword.control.directive",
-				"keyword.preprocessor"
+				"keyword.preprocessor",
+				"entity.name.function.preprocessor",
+				"entity.name.variable.preprocessor"
 			],
 			"settings": {
 				"foreground": "#C22559"
@@ -312,20 +302,12 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#316BCD"
-			}
-		},
-		{
 			"scope": [
-				"punctuation.definition.variable",
-				"punctuation.definition.parameters",
-				"punctuation.definition.array",
-				"markup.raw.inline"
+				"variable.other.enummember",
+				"punctuation.definition.variable"
 			],
 			"settings": {
-				"foreground": "#173591"
+				"foreground": "#336363",
 			}
 		},
 		{
@@ -466,12 +448,12 @@
 		"parameter": "#33434B", //identifiers that declare or reference a function or method parameters
 		"variable": "#33434B", //identifiers that declare or reference a local or global variable
 		"property": "#33434B", //identifiers that declare or reference a member property, member field, or member variable
-		"enumMember": "#2F5858", //identifiers that declare or reference an enumeration property, constant, or member
+		"enumMember": "#336363", //identifiers that declare or reference an enumeration property, constant, or member
 		//"decorator": "#FF0000", //identifiers that declare or reference decorators and annotations
 		//"event": "#FF0000", //identifiers that declare an event property
 		"function": "#9C33B1", //identifiers that declare a function
 		"method": "#9C33B1", //identifiers that declare a member function or method
-		"macro": "#ED6A43", //identifiers that declare a macro
+		"macro": "#C22559", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
 		"string": "#208c48", //tokens that represent a string literal
