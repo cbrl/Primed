@@ -335,8 +335,9 @@
 				"variable.parameter.function.language.special.self.python",
 				"variable.language.this.cpp",
 
-				// JSON
-				"support.type.property-name.json",
+				// JSON, CSS
+				"support.type.property-name",
+				"support.type.vendored.property-name",
 
 				// HTML
 				"entity.name.tag",
@@ -347,6 +348,12 @@
 			],
 			"settings": {
 				"foreground": "#316BCD"
+			}
+		},
+		{
+			"scope": "keyword.control.flow",
+			"settings": {
+				"foreground": "#9C33B1"
 			}
 		},
 		{
@@ -370,6 +377,8 @@
 				"meta.selector entity",
 				"meta.selector entity punctuation",
 				"entity.name.tag.css",
+				"constant.character.entity",
+				"punctuation.definition.entity",
 
 				// Markdown
 				"markup.italic",
@@ -380,7 +389,7 @@
 				"punctuation.definition.strikethrough"
 			],
 			"settings": {
-				"foreground": "#9C33B1"
+				"foreground": "#AB6526"
 			}
 		},
 		{
@@ -403,24 +412,6 @@
 			"scope": "markup.changed",
 			"settings": {
 				"foreground": "#F0C36F"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.section.embedded",
-				"variable.interpolation"
-			],
-			"settings": {
-				"foreground": "#AB7967"
-			}
-		},
-		{
-			"scope": [
-				"constant.character.entity",
-				"punctuation.definition.entity"
-			],
-			"settings": {
-				"foreground": "#AB6526"
 			}
 		},
 		{
@@ -451,21 +442,21 @@
 		"enumMember": "#336363", //identifiers that declare or reference an enumeration property, constant, or member
 		//"decorator": "#FF0000", //identifiers that declare or reference decorators and annotations
 		//"event": "#FF0000", //identifiers that declare an event property
-		"function": "#9C33B1", //identifiers that declare a function
-		"method": "#9C33B1", //identifiers that declare a member function or method
+		"function": "#AB6526", //identifiers that declare a function
+		"method": "#AB6526", //identifiers that declare a member function or method
 		"macro": "#C22559", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
 		"string": "#208c48", //tokens that represent a string literal
 		"keyword": "#316BCD", //tokens that represent a language keyword
-		"controlKeyword": "#316BCD",
+		"controlKeyword": "#9C33B1",
 		"preprocessorKeyword": "#C22559",
 		"selfParameter": "#316BCD",
 		"clsParameter": "#316BCD",
 		"number": "#078B8B", //tokens that represent a number literal
 		"builtinConstant": "#6D54EB",
 		//"regexp": "#FF0000", //tokens that represent a regular expression literal
-		//"operator": "#33434B", //tokens that represent an operator
+		"operator": "#33434B", //tokens that represent an operator
 		"operatorOverload": "#078B8B",
 		"memberOperatorOverload": "#078B8B"
 	}
