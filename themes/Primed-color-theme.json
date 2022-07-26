@@ -246,7 +246,7 @@
 				"markup.deleted",
 			],
 			"settings": {
-				"foreground": "#C22559"
+				"foreground": "#CA272F"
 			}
 		},
 		{
@@ -352,7 +352,21 @@
 			}
 		},
 		{
-			"scope": "keyword.control.flow",
+			"scope": [
+				"keyword.control.flow",
+				"keyword.control.while",
+				"keyword.control.do",
+				"keyword.control.for",
+				"keyword.control.if",
+				"keyword.control.else",
+				"keyword.control.break",
+				"keyword.control.continue",
+				"keyword.control.try",
+				"keyword.control.goto",
+				"keyword.control.switch",
+				"keyword.control.case",
+				"keyword.control.default",
+			],
 			"settings": {
 				"foreground": "#9C33B1"
 			}
@@ -440,13 +454,13 @@
 		//"event": "#FF0000", //identifiers that declare an event property
 		"function": "#AB6526", //identifiers that declare a function
 		"method": "#AB6526", //identifiers that declare a member function or method
-		"macro": "#C22559", //identifiers that declare a macro
+		"macro": "#CA272F", //identifiers that declare a macro
 		//"label": "#FF0000", //identifiers that declare a label
 		"comment": "#969896", //tokens that represent a comment
 		"string": "#208c48", //tokens that represent a string literal
 		"keyword": "#316BCD", //tokens that represent a language keyword
 		"controlKeyword": "#9C33B1",
-		"preprocessorKeyword": "#C22559",
+		"preprocessorKeyword": "#CA272F",
 		"selfParameter": "#316BCD",
 		"clsParameter": "#316BCD",
 		"number": "#078B8B", //tokens that represent a number literal
