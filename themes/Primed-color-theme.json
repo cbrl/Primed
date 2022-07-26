@@ -230,7 +230,6 @@
 		{
 			"scope": [
 				"token.error-token",
-				"markup.deleted",
 				"string.other.link"
 			],
 			"settings": {
@@ -243,7 +242,8 @@
 				"keyword.control.directive",
 				"keyword.preprocessor",
 				"entity.name.function.preprocessor",
-				"entity.name.variable.preprocessor"
+				"entity.name.variable.preprocessor",
+				"markup.deleted",
 			],
 			"settings": {
 				"foreground": "#C22559"
@@ -398,15 +398,10 @@
 				"string",
 				"punctuation.definition.string",
 				"markup.quote",
+				"markup.inserted"
 			],
 			"settings": {
 				"foreground": "#208C47"
-			}
-		},
-		{
-			"scope": "markup.inserted",
-			"settings": {
-				"foreground": "#A1DF8A"
 			}
 		},
 		{
