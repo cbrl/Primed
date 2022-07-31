@@ -353,19 +353,7 @@
 		},
 		{
 			"scope": [
-				"keyword.control.flow",
-				"keyword.control.while",
-				"keyword.control.do",
-				"keyword.control.for",
-				"keyword.control.if",
-				"keyword.control.else",
-				"keyword.control.break",
-				"keyword.control.continue",
-				"keyword.control.try",
-				"keyword.control.goto",
-				"keyword.control.switch",
-				"keyword.control.case",
-				"keyword.control.default",
+				"keyword.control",
 			],
 			"settings": {
 				"foreground": "#9C33B1"
