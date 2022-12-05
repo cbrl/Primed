@@ -370,11 +370,11 @@
 				//"meta.link",
 				"meta.require",
 				"string.regexp",
-				"support.function",				
+				"support.function",
 				"support.function.any-method",
 				"meta.tag entity.other.attribute-name",
 				"entity.other.attribute-name.html",
-				
+
 				// CSS
 				"meta.selector",
 				"meta.selector entity",
