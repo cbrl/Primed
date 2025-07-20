@@ -46,7 +46,7 @@
 		"editorGutter.modifiedBackground": "#f0c36f",
 		"editorHoverWidget.background": "#ffffff",
 		"editorHoverWidget.border": "#00000019",
-		"editorIndentGuide.background": "#ececec7b",
+		"editorIndentGuide.background1": "#ececec7b",
 		"editorInfo.border": "#ffffff",
 		"editorInfo.foreground": "#deb800",
 		"editorLineNumber.foreground": "#b3b3b3",
@@ -326,18 +326,17 @@
 		},
 		{
 			"scope": [
+				"meta.selector",
 				"keyword",
 				"keyword.control",
+				"keyword.other.this",
+				"keyword.operator.logical.python",
 				"keyword.operator.wordlike",
 				"keyword.operator.functionlike",
 				"storage",
-				"meta.selector",
-
-				// Language-specific keywords
-				"keyword.operator.logical.python",
-				"variable.language.special.self.python",
-				"variable.parameter.function.language.special.self.python",
-				"variable.language.this.cpp",
+				"variable.language.this",
+				"variable.language.self",
+				"variable.language.super",
 
 				// JSON, CSS
 				"support.type.property-name",
