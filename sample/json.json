@@ -1,0 +1,29 @@
+{
+    "name": "test-data",
+	"author": {
+		"name": "John Doe"
+	},
+	"value": 25,
+	"enabled": true,
+	"icon": "icon.png",
+    "categories": [
+		"Other",
+		"Miscellaneous"
+	],
+    "depends": {
+        "typescript": "4.4.3",
+		"somepackage": "0.0.1"
+    },
+	"defines": {
+		"vars": [
+			{
+				"myvar": "USE_SCHEMA",
+				"enabled": true
+			}
+		]
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/example/repository.git"
+	}
+}
