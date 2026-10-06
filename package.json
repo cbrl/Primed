@@ -6,7 +6,7 @@
 	"repository": {
 		"url": "https://github.com/cbrl/Primed"
 	},
-    "version": "1.8.1",
+    "version": "1.9.0",
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -19,6 +19,11 @@
                 "label": "Primed",
                 "uiTheme": "vs",
                 "path": "./themes/Primed-color-theme.json"
+            },
+            {
+                "label": "Primed Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Primed-Dark-color-theme.json"
             }
         ]
     }
